@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+
+    margin: auto;
+    width: 50%;
+    padding: 5em 0 5em 0;
+    text-align: center;
+}
+
+.knop {
+    max-width: 800px;
+    width: 96%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    padding: 1em 0 1em 0;
+}
+
+.naam {
+    max-width: 800px;
+    width: 96%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    padding: 5em 0 5em 0;
+}
+
+body {
+    color: #222;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+input {
+    height: 3em;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 1em;
+    resize: vertical;
+    font-size: inherit;
+    font-family: sans-serif;
+    width: 20em;
+}
+
+.divknop {
+    margin-top: 1em;
+}
+
+.divnaam {
+    margin-top: 1.5em;
+}
+
+#knop {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.25em;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    background-color: #ff8155;
+    border: 1px solid #c86444;
+    margin: auto;
+    width: 40%;
+    margin-bottom: 2em;
+}
+
+#knop:hover {
+    color: #fafafa;
+    text-decoration: none;
+    background-color: #d45c2a;
+}
